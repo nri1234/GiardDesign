@@ -1,0 +1,197 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap');
+
+
+@import 'nav';
+@import 'slider';
+@import 'buttons';
+@import 'cards';
+@import 'footer';
+@import 'search-bar';
+
+*,
+::before,
+::after {
+  border-width: 0;
+}
+:root {
+  --bg-primary: #f5f0ec;
+  --bg-secondary: #fff;
+  --bg-light: #dcc1ab;
+  --bg-dark: #1b5b31;
+  --bg-footer: #111;
+
+  --text-primary: #111;
+  --bs-body-font-family: "Inter", sans-serif;
+  --bs-body-font-family-h1: "Montserrat", sans-serif;
+  --bs-body-font-size: 16px;
+  --bs-nav-font-size: 14px;
+  --bs-small-font-size: 14px;
+
+  --bs-margin-large: 72px;
+}
+
+body {
+  font-family: var(--bs-body-font-family);
+  line-height: 21px;
+  font-size: var(--bs-body-font-size);
+  font-weight: 400;
+}
+
+.background-light {
+  background: var(--bg-light)
+}
+
+.mt-large {
+  margin-top: var(--bs-margin-large);
+}
+
+
+// Navbar
+
+
+// Intro
+
+.text {
+  line-height: 24px;
+}
+
+.intro-img {
+  max-height: 737px;
+  width: 100%;
+}
+.about-img {
+  max-height: 720px;
+  width: 100%;
+}
+
+.img-position-absolute {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-height: 100%;
+  width: auto;
+}
+
+.col-md-6 {
+  padding-left: 0;
+}
+
+.intro-content {
+  max-width: 599px;
+  padding: 0;
+  margin: 0;
+
+  .intro-h1 {
+    font-family: var(--bs-body-font-family-h1);
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+.padding0 {
+  padding: 0;
+}
+
+.margin0 {
+  margin: 0;
+}
+
+// Offer
+
+.offer-box {
+  background-color: var(--bg-primary);
+  padding: 120px 0 160px 0;
+}
+
+.title-small {
+  font-size: 12px;
+  color: var(--bg-dark);
+  letter-spacing: 0px;
+  line-height: 18px;
+
+  &.white {
+    color: var(--bg-primary);
+  }
+}
+
+.offer-h1 {
+  font-family: var(--bs-body-font-family-h1);
+  font-size: 48px;
+  margin: 16px 0 32px 0;
+  letter-spacing: -1px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+.offer-text {
+  margin-bottom: 96px;
+}
+
+// About
+
+.about-h1 {
+  font-size: 48px;
+  color: var(--bg-primary);
+  letter-spacing: -1px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+
+
+
+.about-text {
+  color: var(--bg-primary);
+}
+
+.about-navi-small {
+  font-size: 12px;
+  color: var(--bg-primary);
+}
+
+// Development
+
+.developments-text {
+  width: 1040px;
+  margin: auto;
+  padding: 120px 0 96px 0;
+}
+
+.gallery-active:hover {
+  opacity: 0.7;
+}
+
+.gradient-cover {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  background: linear-gradient(0deg, rgba(220, 193, 171, 1), rgba(214, 183, 158, 0));
+  width: 100%;
+  height: 1000px;
+}
+
+// Instagram
+
+.instagram-container {
+  align-items: center;
+  height: 478px;
+}
+.instagram-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 358px;
+  background-color: var(--bg-dark);
+  padding: 120px 110px;
+  color: var(--bg-primary);
+}
+
+.instagram-h2 {
+  font-size: 40px;
+  line-height: 48px;
+  color: #f5f0ec;
+  font-weight: 400;
+  font-family: var(--bs-body-font-family-h1);
+}
+

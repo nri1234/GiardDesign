@@ -1,0 +1,59 @@
+
+.btn {
+  height: 50px;
+  border-radius: 25px;
+  font-size: 16px;
+  padding: 0 1.75rem;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+    border: 1px solid var(--bg-primary);
+    color: var(--bg-primary);
+
+    img {
+      display: none;
+    }
+  }
+}
+
+.btn-contact, .submit-btn {
+  background-color: var(--bg-dark);
+  color: var(--bg-primary);
+}
+
+.btn-developments {
+  background-color: var(--bg-light);
+  border: 1px solid var(--bg-dark);
+  color: var(--bg-dark);
+}
+.btn-more {
+  background-color: transparent;
+  border: 1px solid var(--text-primary);
+  color: var(--text-primary);
+
+  img {
+    height: 16px;
+    top: -3px;
+    position: relative;
+  }
+}
+
+.about-button {
+  background-color: var(--bg-dark);
+  border: 1px solid var(--bg-primary);
+  color: var(--bg-primary);
+}
+
+.btn-instagram {
+  background-color: var(--bg-primary);
+  color: var(--bg-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 124px;
+
+  &:hover {
+    border: 1px solid var(--bg-primary);
+  }
+}

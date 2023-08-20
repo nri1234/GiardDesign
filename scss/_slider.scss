@@ -1,0 +1,54 @@
+.btns-container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 192px;
+  width: 100%;
+  height: 96px;
+  background: var(--bg-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev, .swiper-button-prev, .swiper-container-rtl .swiper-button-next  {
+  background-image: none!important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  width: auto!important;
+}
+.swiper-button-prev {
+  left: 32px!important;
+}
+.swiper-button-next {
+  right: 32px!important;
+}
+
+
+.masonry-layout {
+  --columns: 1;
+  --gap: 2rem;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-gap: var(--gap);
+  padding: 2rem;
+}
+.masonry-layout > div > img,
+.masonry-layout > div > div {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.masonry-layout.columns-1 {
+  --columns: 1;
+}
+.masonry-layout.columns-2 {
+  --columns: 2;
+}
+.masonry-layout.columns-3 {
+  --columns: 3;
+}
+.masonry-layout.columns-4 {
+  --columns: 4;
+}
